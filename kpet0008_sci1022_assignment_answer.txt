@@ -16,8 +16,8 @@ Q2:
 
 Q3:
 
-/usr/lib$ wc ../../home/kpet0008/ebooks/hamlet.txt
-  5307  32252 184406 ../../home/kpet0008/ebooks/hamlet.txt
+/usr/lib$ wc ~/ebooks/hamlet.txt
+  5307  32252 184406 /home/kpet0008/ebooks/hamlet.txt
 
 Q4:
 
