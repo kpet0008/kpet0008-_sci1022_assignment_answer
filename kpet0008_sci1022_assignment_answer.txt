@@ -17,3 +17,13 @@ Q3:
 
 /usr/lib$ wc ../../home/kpet0008/ebooks/hamlet.txt
   5307  32252 184406 ../../home/kpet0008/ebooks/hamlet.txt
+
+Q4:
+
+/usr/lib$ head -n 3447 ~/ebooks/hamlet.txt | tail -n 1
+Is thought-sicke at the act
+
+(checking that this is the correct output)
+/usr/lib$ less ~/ebooks//hamlet.txt
+3447g
+Is thought-sicke at the act
