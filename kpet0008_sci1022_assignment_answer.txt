@@ -8,16 +8,18 @@ Q1:
 Q2:
 
 ~$ cd /usr/lib
-/usr/lib$ ls -lh ~/ebooks/hamlet.txt
--rw-rw-r--+ 1 kpet0008 Domain Users 181K Mar 21 18:12 /home/kpet0008/ebooks/hamlet.txt
+/usr/lib$ ls -l ~/ebooks/hamlet.txt
+-rw-rw-r--+ 1 kpet0008 Domain Users 184406 Mar 21 18:12 /home/kpet0008/ebooks/hamlet.txt
 
-/usr/lib$ ls -lh ../../home/kpet0008/ebooks/hamlet.txt
--rw-rw-r--+ 1 kpet0008 Domain Users 181K Mar 21 18:12 ../../home/kpet0008/ebooks/hamlet.txt
+/usr/lib$ ls -l ../../home/kpet0008/ebooks/hamlet.txt
+-rw-rw-r--+ 1 kpet0008 Domain Users 184406 Mar 21 18:12 ../../home/kpet0008/ebooks/hamlet.txt
 
 Q3:
 
 /usr/lib$ wc ~/ebooks/hamlet.txt
   5307  32252 184406 /home/kpet0008/ebooks/hamlet.txt
+
+(the number of bytes matches that seen in Q2, both 184406)
 
 Q4:
 
@@ -28,3 +30,10 @@ Is thought-sicke at the act
 /usr/lib$ less ~/ebooks//hamlet.txt
 3447g
 Is thought-sicke at the act
+
+Q5:
+
+/usr/lib$ grep -i hamlet ~/ebooks/hamlet.txt | wc
+    109     702    4278
+
+(the substring "hamlet" appears in 109 lines)
