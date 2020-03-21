@@ -12,3 +12,8 @@ Q2:
 
 /usr/lib$ ls -lh ../../home/kpet0008/ebooks/hamlet.txt
 -rw-rw-r--+ 1 kpet0008 Domain Users 181K Mar 21 18:12 ../../home/kpet0008/ebooks/hamlet.txt
+
+Q3:
+
+/usr/lib$ wc ../../home/kpet0008/ebooks/hamlet.txt
+  5307  32252 184406 ../../home/kpet0008/ebooks/hamlet.txt
